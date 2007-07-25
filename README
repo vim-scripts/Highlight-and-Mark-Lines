@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1969
+
+Inspired from other scripters. Thanks.
+
+This utility was created because of needs as others. My job requires log
+mining. Sometimes I need to highlight specific lines and moving between 
+them for comparison. Most of my colleagues use UltraEdit which has this
+capability which made me to find a way to add this capability to Vim.
+
+What does this utility do?
+It highlights and marks the line under cursor. Then you'll be able to move
+between these marks easily. Unfortunately it is just limited to 3 marks because of my lack of coding knowledge.
+
+Step 1 - Just highlight and mark the line with CTRL+F2, CTRL+F3 or CTRL+F4. 
+Step 2 - Then use F2, F3 and F4 to move between these marks. 
+Step 3 - Use SHIFT+CTRL+F2, SHIFT+CTRL+F3 and SHIFT+CTRL+F4 to reset the related mark and highlight.
+Step 4 - use cm in normal mode to reset all highlights and marks
+
+It is that simple.
